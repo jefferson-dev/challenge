@@ -34,11 +34,7 @@ class getController {
 
     async function getData() {
       return Promise.all(receitas.map(async receita => {
-        let gif = null
-
-        try {
-          gif = await getGif(receita.title)
-        } catch {}
+        let gif = await getGif(receita.title)
 
         return {
           title: receita.title,
