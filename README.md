@@ -6,14 +6,7 @@ Solução para desafio Delivery Much Tech Challenge
 
 - Docker
 
-## Configuração
-
-- Renomeie o arquivo `.env.example`  para `.env`
-- Altere dentro do arquivo `.env` a Key da API do Giphy `GIPHY_KEY`
-
-Para obter a Key é necessário cadastro na API do Giphy em [Giphy](https://developers.giphy.com/dashboard/)
-
-## Execução
+## Configuração e Execução
 
 - Clone o repositorio
 
@@ -26,8 +19,16 @@ $ git clone https://github.com/jefferson-dev/challenge.git
 ```
 $ cd challenge
 ```
+- Dentro do diretório faça as seguinte alterações
 
-- Dentro do diretório execulte
+```
+- Renomeie o arquivo `.env.example`  para `.env`
+- Altere dentro do arquivo `.env` a Key da API do Giphy `GIPHY_KEY`
+
+Para obter a Key é necessário cadastro na API do Giphy em [Giphy](https://developers.giphy.com/dashboard/)
+```
+
+- Ainda dentro do diretório execulte
 ```
 $ docker build -t deliverymuch .
 ```
