@@ -25,7 +25,7 @@ $ cd challenge
 - Renomeie o arquivo `.env.example`  para `.env`
 - Altere dentro do arquivo `.env` a Key da API do Giphy `GIPHY_KEY`
 
-Para obter a Key é necessário cadastro na API do Giphy em [Giphy](https://developers.giphy.com/dashboard/)
+Para obter a Key é necessário cadastro na API do Giphy em `https://developers.giphy.com/dashboard/`
 ```
 
 - Ainda dentro do diretório execulte
@@ -35,7 +35,7 @@ $ docker build -t deliverymuch .
 
 - Após criar a imagem com docker rode o seguinte comando para iniciar
 ```
-docker run -p 3000:3000 -d --restart unless-stopped deliverymuch
+$ docker run -p 3000:3000 -d --restart unless-stopped deliverymuch
 ```
 
 ## Teste
